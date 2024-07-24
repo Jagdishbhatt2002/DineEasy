@@ -27,7 +27,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Our restaurant was established in the year 1992 And celebrating its 30th year anniversary this year. We have had over 3000 satisfied customers who are always eager to visit again. people always trust us because nothing goes wrong. satisfied customers bring their friends and relatives
-        to buzzy bytes to have a memorable experience, thereby growing the buzzy bytes family.we will continue to bring smiles to people as long as people walk through the doors of our restaurant.we are committed to upholding the standard that we have upheld for the last 30 glorious years.</p>
+        to DineEats to have a memorable experience, thereby growing the DineEats family.we will continue to bring smiles to people as long as people walk through the doors of our restaurant.we are committed to upholding the standard that we have upheld for the last 30 glorious years.</p>
       </div>
     </div>
   </div>

@@ -92,7 +92,7 @@ class Book extends React.Component {
           <label for="guests">Number of guests </label>
           <input type="number" id="guests"onChange={this.changenumberofguests} value={this.state.numberofguests} min='1' max='20'/><br/>
           <label for="date">Date </label>
-          <input type="date" id="date" onChange={this.changedate} value={this.state.bookingdate} min="2022-11-21" max="2022-12-20" required/><br/>
+          <input type="date" id="date" onChange={this.changedate} value={this.state.bookingdate} min="2022-11-21" max="2026-12-20" required/><br/>
           <label for="time">Time </label>
           <select name="time" id="time" onChange={this.changetime} value={this.state.bookingtime} required >
             <option value="none" selected disabled hidden>Select time</option>

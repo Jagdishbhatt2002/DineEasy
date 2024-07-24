@@ -14,20 +14,21 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">546, MG Road, Bangalore 5600 32, India</p>
-        <p className="p__opensans">+91 86601 23758</p>
-        <p className="p__opensans">+91 65442 85331</p>
+        <p className="p__opensans">+91 1234567890</p>
+        
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.w_logo} alt="footer_logo" />
+        {<h1>DineEats</h1>}
+        {/* <img src={images.w_logo} alt="footer_logo" /> */}
         <p className="p__opensans">&quot;The best way to have a time like never before.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
-        <div className="app__footer-links_icons">
+        {/* <div className="app__footer-links_icons">
           <a href="https://github.com/melvinjjoseph"><FiGithub/></a>
           <a href="https://www.linkedin.com/in/melvin-j-joseph/"><FiLinkedin/></a>
           <a href='mailto:melvinjjoseph2002@gmail.com'><FiMail/></a>
           <a href='https://www.instagram.com/melvin_2416/?hl=en'><FiInstagram /></a>
-        </div>
+        </div> */}
       </div>
 
       <div className="app__footer-links_work">
@@ -40,7 +41,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">ⓒ2022 Buzzy Bytes. All Rights reserved.</p>
+      <p className="p__opensans">ⓒ2024 DineEats. All Rights reserved.</p>
 
     </div>
 

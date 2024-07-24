@@ -9,8 +9,10 @@ import './Navbar.css';
 
 const Navbar = () => (
   <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <Link to='/'><img src={images.w_logo} alt="app__logo" /></Link>
+      <div className='header'>
+        <h1 textcolor='white'>DineEats</h1>
+       
+        {/* <Link to='/'><img src={images.w_logo} alt="app__logo" /></Link> */}
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><Link to="/">Home</Link></li>
@@ -21,7 +23,7 @@ const Navbar = () => (
       </ul>
       <div className="app__navbar-login">
         {/* <a href="#login" className="p__opensans">Log In / Registration</a> */}
-        <a href="/book" className="p__opensans">Book a Table</a>
+        <a href="/book" className="p__opensans">Reservation</a>
       </div>
   </nav>
 );

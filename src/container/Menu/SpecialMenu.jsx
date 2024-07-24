@@ -23,7 +23,7 @@ const SpecialMenu = () => (
 
       <div className="app__specialMenu-menu_img">
         <img src={images.menu1} alt="menu__img" />
-      </div>
+      </div>  
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Main Course</p>
@@ -60,7 +60,7 @@ const SpecialMenu = () => (
 
     <div style={{ marginTop: 15 }}>
       <form action='http://localhost:4000/app/menu' method="get">
-      <button type="submit" className="custom__button">Download Full Menu</button>
+      {/* <button type="submit" className="custom__button">Download Full Menu</button> */}
       </form>
     </div>
   </div>

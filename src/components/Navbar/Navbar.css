@@ -7,6 +7,18 @@
     padding: 1rem 2rem;
 }
 
+.header {
+    background-color: rgba(0, 0, 0, 0.151);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
 .app__navbar-logo {
     display: flex;
     justify-content: flex-start;
