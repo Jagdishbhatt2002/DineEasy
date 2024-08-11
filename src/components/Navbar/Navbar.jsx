@@ -26,6 +26,8 @@ const Navbar = () => (
         <a href="/book" className="p__opensans">Reservation</a>
       </div>
   </nav>
-);
+); 
 
 export default Navbar;
+
+//https://dineeasy124.netlify.app/ hosted on netlify
